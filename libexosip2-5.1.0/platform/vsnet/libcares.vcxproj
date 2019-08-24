@@ -192,6 +192,9 @@
     <ClCompile Include="..\..\..\c-ares-1.15.0\inet_net_pton.c" />
     <ClCompile Include="..\..\..\c-ares-1.15.0\inet_ntop.c" />
     <ClCompile Include="..\..\..\c-ares-1.15.0\windows_port.c" />
+	<ClCompile Include="..\..\..\c-ares-1.15.0\ares_create_query.c" />	
+	<ClCompile Include="..\..\..\c-ares-1.15.0\ares_platform.c" />
+	<ClCompile Include="..\..\..\c-ares-1.15.0\ares_strsplit.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\c-ares-1.15.0\ares.h" />
@@ -217,6 +220,8 @@
     <ClInclude Include="..\..\..\c-ares-1.15.0\inet_ntop.h" />
     <ClInclude Include="..\..\..\c-ares-1.15.0\nameser.h" />
     <ClInclude Include="..\..\..\c-ares-1.15.0\setup_once.h" />
+	<ClInclude Include="..\..\..\c-ares-1.15.0\ares_strsplit.h" />
+	<ClInclude Include="..\..\..\c-ares-1.15.0\ares_platform.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
